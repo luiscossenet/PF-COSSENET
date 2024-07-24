@@ -52,6 +52,7 @@
 
 img {
     max-width: 80%;
+    /*filter: grayscale(100%);*/
 }
 
 .nav-lcc {
@@ -291,6 +292,19 @@ footer {
 .line img,
 .line i {
     margin: 0 10px;
+}
+
+/****/
+.div-polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.div-polaroid-container {
+    text-align: center;
+    padding: 10px 20px;
 }
 
 /***/
