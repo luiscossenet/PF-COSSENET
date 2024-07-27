@@ -30,13 +30,15 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
     <!-- CSS -->
     <link href="./css/main.css" rel="stylesheet">
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+        <div class="row container-bar ">
+            <div class="bar"></div>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="index.html">Magico Aprendizaje</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,20 +70,15 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="container-bar">
-            <div class="bar"></div>
-        </div>
-        <section id="section" class="container position-relative">
+        <section id="section" class="text-center container">
             <h1><a class="a_web" href="index.html">Magico Aprendizaje</a></h1>
-            <div class="image-container">
-                <img class="responsive-image" src="./img/imgmagicobq.jpeg" alt="Imagen Principal Magico Aprendizaje">
-            </div>
-            <h2>Bienvenidos</h2>
+            <img class="img-fluid div-polaroid img-p" src="./img/imgmagicobq.jpeg"
+                alt="Imagen Principal Magico Aprendizaje">
+                <h2>Bienvenidos</h2>
             <article>
                 <p> Somos un centro educativo, bienvenido a nuestros servicios. </p>
             </article>
@@ -128,7 +125,7 @@
             <p>&copy; 2024 Mágico Aprendizaje. Todos los derechos reservados.</p>
         </div>
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
