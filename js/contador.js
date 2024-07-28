@@ -10,9 +10,6 @@ fetch('files/contadores.txt')
             contadores[name.trim()] = parseInt(value.trim());
         });
         widget(contadores);
-        console.log(contadores["servicios"]);
-        console.log(contadores["estudiantes"]);
-        console.log(contadores["years"]);
 
     })
     .catch(error => {
