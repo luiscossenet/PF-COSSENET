@@ -4,12 +4,17 @@ fetch('files/contadores.txt')
     .then(data => {
         //const contadores = data.split('\r\n').map(Number);
         const lines = data.split('\r\n');
-        let contadores = {};
+        const contadores = {};
         lines.forEach(line => {
             const [name, value] = line.split(':');
             contadores[name.trim()] = parseInt(value.trim());
+            console.log(contadores[name.trim()]);
+            console.log([name, value]);
         });
         widget(contadores);
+        console.log(contadores["servicios"]);
+        console.log(contadores["estudiantes"]);
+        console.log(contadores["years"]);
 
     })
     .catch(error => {
