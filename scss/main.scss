@@ -3,12 +3,10 @@
 //////////////////////////////////////////
 /// 1. Modificando Variables de Bootstrap
 /// //////////////////////////////////////
-
 @import "./variables.scss";
+////##Importando Estilos
+@import "./styles.scss";
+@import "./widgets.scss";
 //////////////////////////////////////////
 /// #Importando Bootstrap
-/// /**/
-@import "./styles.scss";
-
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
