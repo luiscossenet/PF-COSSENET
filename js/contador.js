@@ -29,7 +29,7 @@ fetch('./files/contadores.txt')
     .then(response => response.text())
     .then(data => {
         //const contadores = data.split('\r\n').map(Number);
-        const lines = data.split('\r\n');
+        const lines = data.split('\n');
         const contadores = {};
         lines.forEach(line => {
             const [name, value] = line.split(':');
