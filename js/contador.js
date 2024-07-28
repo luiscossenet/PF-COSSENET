@@ -4,7 +4,7 @@ fetch('files/contadores.txt')
     .then(data => {
         //const contadores = data.split('\r\n').map(Number);
         const lines = data.split('\r\n');
-        const contadores = {};
+        let contadores = {};
         lines.forEach(line => {
             const [name, value] = line.split(':');
             contadores[name.trim()] = parseInt(value.trim());
