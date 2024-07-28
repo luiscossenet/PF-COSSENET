@@ -25,7 +25,7 @@ function widget(contadores) {
     }
 }
 
-fetch('files/contadores.txt')
+fetch('./files/contadores.txt')
     .then(response => response.text())
     .then(data => {
         //const contadores = data.split('\r\n').map(Number);
