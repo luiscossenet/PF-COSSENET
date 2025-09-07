@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /login/
 Allow: /
 
-Sitemap: https://luiscossenet.github.io/PF-COSSENET/sitemap.xml
+Sitemap: https://magicoparendizaje.com/sitemap.xml
